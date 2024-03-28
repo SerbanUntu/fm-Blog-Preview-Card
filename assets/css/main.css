@@ -5,7 +5,7 @@
 @font-face {
   font-family: 'Figtree';
   src: url('/assets/fonts/static/Figtree-SemiBold.ttf') format('truetype');
-  font-weight: 600;
+  font-weight: 500;
   font-style: bold;
 }
 
@@ -16,13 +16,22 @@
   font-style: bolder;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-}
+@layer base {
+  *,
+  *::before,
+  *::after {
+    @apply box-border m-0;
+  }
 
-html {
-  font-size: 16px;
+  p {
+    @apply text-[14px] sm:text-[16px];
+  }
+
+  small {
+    @apply text-[12px] sm:text-[14px];
+  }
+
+  h1 {
+    @apply text-[20px] sm:text-[24px];
+  }
 }

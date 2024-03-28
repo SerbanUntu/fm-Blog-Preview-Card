@@ -18,12 +18,8 @@ export default {
         yellow: "#f4d04e",
         grey: "#7f7f7f",
       },
-      fontSize: {
-        small: "14px",
-        heading: "24px",
-      },
       fontWeight: {
-        semibold: "600",
+        medium: "500",
         extrabold: "800",
       },
       boxShadow: {
