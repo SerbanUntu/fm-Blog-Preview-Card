@@ -28,7 +28,7 @@ Users are able to:
 
 ### Links
 
-- [Solution]()
+- [Solution](https://www.frontendmentor.io/solutions/responsive-blog-preview-card-with-tailwindcss-aLy2uNHOC_)
 - [Live Site](https://fm-blog-preview-card-olive.vercel.app/)
 
 ## My process
